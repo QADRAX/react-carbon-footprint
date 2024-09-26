@@ -1,13 +1,13 @@
 // ExampleApiComponent.stories.tsx
 import React from 'react';
 import { Meta, Story } from '@storybook/react/types-6-0';
-import ExampleApiComponent from './Example';
+import ExampleComponent from './Example';
 
 export default {
-  title: 'Hooks/useCo2Footprint',
-  component: ExampleApiComponent,
+  title: 'Hooks/useCarbonFootprint',
+  component: ExampleComponent,
 } as Meta;
 
-const Template: Story = () => <ExampleApiComponent />;
+const Template: Story = () => <ExampleComponent />;
 
 export const Default = Template.bind({});

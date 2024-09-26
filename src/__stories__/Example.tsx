@@ -26,7 +26,7 @@ const styles = {
   },
 };
 
-const ExampleApiComponent: React.FC = () => {
+const ExampleComponent: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
   const fetchData = async () => {
@@ -44,4 +44,4 @@ const ExampleApiComponent: React.FC = () => {
   );
 };
 
-export default ExampleApiComponent;
+export default ExampleComponent;
