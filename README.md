@@ -44,6 +44,14 @@ The ``useCarbonFootprint`` hook returns the following:
 * **gramsCO2** (`number`): The estimated amount of CO2 emitted (in grams) based on the number of bytes transferred over the network.
 * **bytesTransferred** (`number`): The total number of bytes transferred over the network since the component was mounted.
 
+### 🚀 Demo
+
+Explore how the useCarbonFootprint hook works in action!
+
+* [Live demo](https://qadrax.github.io/react-carbon-footprint/storybook/?path=/story/hooks-useco2footprint--default): Experience the live demo page to see real-time network data tracking and CO2 emissions calculations.
+
+* [Source Code](https://github.com/QADRAX/react-carbon-footprint/blob/main/src/__stories__/Example.tsx)
+
 ## How It Works
 
 The `useCarbonFootprint` hook works by monitoring network resource loads in a React component. It calculates the total number of bytes transferred via HTTP requests (such as for images, scripts, and data from APIs) and then estimates the CO2 emissions based on that data.
