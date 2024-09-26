@@ -48,7 +48,7 @@ The ``useCarbonFootprint`` hook returns the following:
 
 Explore how the useCarbonFootprint hook works in action!
 
-* [Live demo](https://qadrax.github.io/react-carbon-footprint/storybook/?path=/story/hooks-useco2footprint--default): Experience the live demo page to see real-time network data tracking and CO2 emissions calculations.
+* [Live demo](https://qadrax.github.io/react-carbon-footprint/storybook/?path=/story/hooks-usecarbonfootprint--default): Experience the live demo page to see real-time network data tracking and CO2 emissions calculations.
 
 * [Source Code](https://github.com/QADRAX/react-carbon-footprint/blob/main/src/__stories__/Example.tsx)
 
